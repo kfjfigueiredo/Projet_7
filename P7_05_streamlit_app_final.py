@@ -3,6 +3,8 @@
 
 # In[ ]:
 
+$ pip install plotly
+$ pip install PIL
 
 import streamlit as st
 import pandas as pd
@@ -11,6 +13,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 from PIL import Image
+
+
 
 # Page setting
 st.set_page_config(page_title='Dashboard Scoring Credit - Prêt à dépenser ',  layout='wide')
