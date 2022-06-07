@@ -136,7 +136,7 @@ k1.subheader("Explication des variables")
 
 \n\
 * **EXT_SOURCE_2, EXT_SOURCE_3 : Score Normalisé - Source Externe \n\
-* **CLIENT TYPE : Les clients avec une probabilité de défaut de paiement 
+* **CLIENT TYPE : Les clients avec une probabilité de défaut de paiement \n\  
 supérieur à 48% sont considerés des clients à risque et ceux avec une probabilité \n\
 sont considerés clients peu risqués \n\
 * En Règle : valeur moyenne pour l'ensemble des clients en règle\n\
