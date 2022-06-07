@@ -131,7 +131,7 @@ l3.plotly_chart(fig12, use_container_width=True)
 
 k1= st.columns((1))
 k1.subheader("Explication des variables")
-    k1.markdown("\
+    st.markdown("\
     \n\
     * **Client** : la valeur pour le client considéré\n\
     * Moyenne : valeur moyenne pour l'ensemble des clients\n\
