@@ -8,7 +8,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 #import seaborn as sns
-import plost
+#import plost
 from PIL import Image
 
 # Page setting
