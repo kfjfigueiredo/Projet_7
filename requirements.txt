@@ -1,6 +1,4 @@
-streamlit==1.10.0
-pandas
-numpy
-plotly.express
-plotly.graph_objects
+streamlit
+plotly
+plotly.graph_objects==3.10.0
 PIL
