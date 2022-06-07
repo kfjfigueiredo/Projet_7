@@ -3,8 +3,8 @@
 
 # In[ ]:
 
-$ pip install plotly
-$ pip install PIL
+!pip install plotly
+!pip install PIL
 
 import streamlit as st
 import pandas as pd
