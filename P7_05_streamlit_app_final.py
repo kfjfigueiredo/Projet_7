@@ -131,15 +131,7 @@ l3.plotly_chart(fig12, use_container_width=True)
 
 k1= st.columns((1))
 k1.subheader("Explication des variables")
-st.markdown("\
-\n\
-* **Client** : la valeur pour le client considéré\n\
-* Moyenne : valeur moyenne pour l'ensemble des clients\n\
-* En Règle : valeur moyenne pour l'ensemble des clients en règle\n\
-* En Défaut : valeur moyenne pour l'ensemble des clients en défaut\n\
-* Similaires : valeur moyenne pour les 20 clients les plus proches du client\
-considéré sur les critères sexe/âge/revenu/durée/montant du crédit\n\n\
-")
+
 
 
 #Run sur streamlit: streamlit run "C:/Users/kathl/Desktop/Projet7_OP/streamlit_app.py
