@@ -15,9 +15,9 @@ from PIL import Image
 st.set_page_config(page_title='Dashboard Scoring Credit - Prêt à dépenser ',  layout='wide')
 
 # Telecharger la base de données
-df = pd.read_csv('C:/Users/kathl/Desktop/Projet7_OP/Database/df_train_f.csv')
-img =Image.open('C:/Users/kathl/Desktop/Projet7_OP/Logo_pad.png')
-graphique_shap_importance = Image.open('C:/Users/kathl/Desktop/Projet7_OP/Shap_importance.png')
+df = pd.read_csv('https://raw.githubusercontent.com/kfjfigueiredo/Projet_7/main/df_train_f2.csv',index_col= "SK_ID_CURR")
+img =Image.open('https://github.com/kfjfigueiredo/Projet_7/blob/main/Logo_pad.PNG?raw=true')
+graphique_shap_importance = Image.open('https://github.com/kfjfigueiredo/Projet_7/blob/main/Shap_importance.png?raw=true')
 
 
 #header
