@@ -135,8 +135,10 @@ k1.subheader("Explication des variables")
 '''
 
 \n\
-* **Client** : la valeur pour le client considéré\n\
-* Moyenne : valeur moyenne pour l'ensemble des clients\n\
+* **EXT_SOURCE_2, EXT_SOURCE_3 : Score Normalisé - Source Externe \n\
+* **CLIENT TYPE : Les clients avec une probabilité de défaut de paiement 
+supérieur à 48% sont considerés des clients à risque et ceux avec une probabilité \n\
+sont considerés clients peu risqués \n\
 * En Règle : valeur moyenne pour l'ensemble des clients en règle\n\
 * En Défaut : valeur moyenne pour l'ensemble des clients en défaut\n\
 * Similaires : valeur moyenne pour les 20 clients les plus proches du client\
