@@ -81,7 +81,7 @@ fig2 =  px.scatter(x = df['type_de_client'][(df["id"] == id_client)], y = df['PA
 fig2.update_traces(marker_color= 'red')
 fig3 = go.Figure(data=fig1.data + fig2.data)
 #fig3.update_layout(title_text="Payement Rate par rapport au type de client ",title_x=0,margin= dict(l=5,r=5,b=10,t=30), yaxis_title=None, xaxis_title=None)
-g2.subheader("PAYMENT RATE x CLIENT TYPE")
+g2.subheader("Payment Rate x Client_Type")
 g2.plotly_chart(fig3, use_container_width=False)
 
 # 3eme graph  
@@ -105,7 +105,7 @@ fig7.update_traces(marker_color='#264653')
 fig8 =  px.scatter(x = df['NAME_FAMILY_STATUS_Married'][(df["id"] == id_client)], y = df['EXT_SOURCE_2'][(df["id"] == id_client)])
 fig8.update_traces(marker_color= 'red')
 fig9 = go.Figure(data=fig7.data + fig8.data)
-l1.subheader("EXT_SOURCE_2 x Marié (0= non/ 1= oui)")
+l1.subheader("EXT_SOURCE_2 x Marital Situation (maried)")
 l1.plotly_chart(fig9, use_container_width=True)
 
 #5ème graph : 
@@ -135,10 +135,11 @@ k1.subheader("Explication des variables")
 '''
 
 \n\
+* **RANKING de Features Importance avec SHAP** : les valeurs de Shap sont représentées pour chaque variable dans leur ordre d’importance, chaque point représente une valeur de Shap, les points rouges représentent des valeurs élevées de la variable et les points bleus des valeurs basses de la variable
 * **EXT_SOURCE_2, EXT_SOURCE_3** : Score Normalisé - Source Externe \n\
 * **CLIENT TYPE** : Les clients avec une probabilité de défaut de paiement supérieur à 48% sont considerés des clients à risque et ceux avec une probabilité sont considerés clients peu risqués \n\
 * **GENDER_CODE** : M - Masculin / F - Feminin \n\
-* **Status Marital: MArié(e)** : valeur moyenne pour l'ensemble des clients en défaut\n\
+* **Status Marital: Marié(e)** : valeur moyenne pour l'ensemble des clients en défaut\n\
 * **DAYS_BIRTH** : Age du client (en jours) au moment de la demande de crédit\n\n\
 
 '''
