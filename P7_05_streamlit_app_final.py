@@ -133,7 +133,7 @@ k1, k2, k3 = st.columns((1,1,1))
 k1.subheader("Explication des variables")
 
 '''
-st.markdown("\
+
 \n\
 * **Client** : la valeur pour le client considéré\n\
 * Moyenne : valeur moyenne pour l'ensemble des clients\n\
@@ -141,7 +141,7 @@ st.markdown("\
 * En Défaut : valeur moyenne pour l'ensemble des clients en défaut\n\
 * Similaires : valeur moyenne pour les 20 clients les plus proches du client\
 considéré sur les critères sexe/âge/revenu/durée/montant du crédit\n\n\
-")
+
 '''
 
 
