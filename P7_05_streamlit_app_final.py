@@ -67,7 +67,7 @@ g1, g2, g3 = st.columns((1,1,1))
 
 # 1er graph:
 g1.subheader("Ranking des features importances avec SHAP ") # Titre du dashboard 
-g1.image(graphique_shap_importance, width = 400) #graphique de features importance avec Shap
+g1.image(graphique_shap_importance, width = 500) #graphique de features importance avec Shap
 
 
 # 2eme graph:
