@@ -135,12 +135,11 @@ k1.subheader("Explication des variables")
 '''
 
 \n\
-* **EXT_SOURCE_2, EXT_SOURCE_3 : Score Normalisé - Source Externe \n\
-* **CLIENT TYPE : Les clients avec une probabilité de défaut de paiement supérieur à 48% sont considerés des clients à risque et ceux avec une probabilité sont considerés clients peu risqués \n\
-* En Règle : valeur moyenne pour l'ensemble des clients en règle\n\
-* En Défaut : valeur moyenne pour l'ensemble des clients en défaut\n\
-* Similaires : valeur moyenne pour les 20 clients les plus proches du client\
-considéré sur les critères sexe/âge/revenu/durée/montant du crédit\n\n\
+* **EXT_SOURCE_2, EXT_SOURCE_3** : Score Normalisé - Source Externe \n\
+* **CLIENT TYPE** : Les clients avec une probabilité de défaut de paiement supérieur à 48% sont considerés des clients à risque et ceux avec une probabilité sont considerés clients peu risqués \n\
+* **GENDER_CODE** : M - Masculin / F - Feminin \n\
+* **Status Marital: MArié(e)** : valeur moyenne pour l'ensemble des clients en défaut\n\
+* **DAYS_BIRTH** : Age du client (en jours) au moment de la demande de crédit\n\n\
 
 '''
 
